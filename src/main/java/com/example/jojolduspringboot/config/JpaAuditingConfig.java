@@ -1,9 +1,9 @@
-package com.example.jojolduspringboot;
+package com.example.jojolduspringboot.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @Configuration
 @EnableJpaAuditing
-public class JpaAuditingConfiguration {
+public class JpaAuditingConfig {
 }
