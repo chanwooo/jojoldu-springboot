@@ -9,6 +9,10 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb
 
+  session:
+    store-type: jdbc
+
 
 server.servlet.encoding.force-response: true
+
 
